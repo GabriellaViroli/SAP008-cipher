@@ -1,0 +1,41 @@
+html {
+    background-color: #FEECEA;
+    /* Rectangle 1 */
+box-sizing: border-box;
+position: absolute;
+width: 899px;
+height: 881px;
+left: 270px;
+top: 20px;
+border: 1px solid #D9B1A3;
+border-radius: 20px;
+  }
+
+  h1 {
+       /* Olá, amiga bruxa, seja bem vinda! */
+    margin-bottom: 20;
+    padding: 0px 0;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #9EA663;
+    ;
+  }
+  p.paragraph1 {
+     /* Paragrafo1 de texto*/
+    margin: 0;
+    padding: 0px 0;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #D9A3BC;
+    ;
+
+  }
