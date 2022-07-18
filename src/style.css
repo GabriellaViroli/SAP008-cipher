@@ -1,5 +1,5 @@
 html {
-    background-color: #FEECEA;
+background-color: #FEECEA;
     /* Rectangle 1 */
 box-sizing: border-box;
 position: absolute;
@@ -11,20 +11,20 @@ border: 1px solid #D9B1A3;
 border-radius: 20px;
   }
 
-  h1 {
+.title {
        /* Olá, amiga bruxa, seja bem vinda! */
     margin-bottom: 20;
     padding: 0px 0;
     font-family: 'Varela';
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 30px;
     line-height: 48px;
     text-align: center;
     color: #9EA663;
     ;
   }
-  p.paragraph1 {
+.introduçao {
      /* Paragrafo1 de texto*/
     margin: 0;
     padding: 0px 0;
@@ -38,4 +38,51 @@ border-radius: 20px;
     color: #D9A3BC;
     ;
 
-  }
+    }
+
+.content {
+       /* Pergunta deslocamento casas */
+
+  width: 728px;
+  height: 30px;
+  left: 354px;
+  top: 272px;
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #9EA663;
+}
+
+.caixinha {
+  /* Caixa de deslocamento */
+
+width: 50px; 
+top: 272px;
+margin-left: 350px;
+box-sizing: border-box;
+background: #F5F5F5;
+border: 1px solid #D9B1A3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+text-align: center;
+}
+
+.botaocifra {
+/* Rectangle 5 */
+
+width: 217.82px;
+height: 42.69px;
+left: 612.02px;
+top: 552.33px;
+background: #D9B1A3;
+border-radius: 15px;
+/* CIFRE */
+
+}
+
+
+;

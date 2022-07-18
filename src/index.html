@@ -7,18 +7,24 @@
   </head>
   <body>
     <div id="root">
-      <h1>Olá, amiga bruxa!</h1>
-      <p class="paragraph1">Se você gosta de ervas medicinais e gatos ou se você pratica bruxaria e precisa mandar <br> 
+      
+      <h1 class="title">Olá, amiga bruxa!</h1>
+      <p class="introduçao">Se você gosta de ervas medicinais e gatos ou se você pratica bruxaria e precisa mandar <br> 
         uma mensagem sem revelar seu conteúdo, use os campos abaixo para que a inquisição não consiga<br>
         descobrir o conteúdo da sua mensagem. Tenha cuidado.</p>
     </div>
-    <div><label for="criptografia">Cifre sua mensagem:</label>
-      <textarea id="criptografia" name="criptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea>
-      <button>CIFRE</button>
-      </div>
-      <div><label for="descriptografia">Decifre sua mensagem:</label>
-        <textarea id="descriptografia" name="descriptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea>
-        <button>DECIFRE</button>
+
+    <div class = "content" label for="casas">Quantas posições de deslocamento você deseja que a cifra utilize? (1-60)</label></div>
+    <input class = "caixinha" type="number" id="casas" name="casas" min="1" max="60"> </input></div>
+
+ 
+    <div class = "content"><label for="criptografia">Cifre sua mensagem e escape da inquisição </label></div>
+    <div class = "inputcifra"><textarea id="criptografia" name="criptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea></div>
+    <button class = "botaocifra" id="btnCifre">CIFRE</button></body>
+     
+      <div class = "content"><label for="descriptografia">Decifre sua mensagem e escape da inquisição:</label></div>
+      <div class = "inputcifra"><textarea id="descriptografia" name="descriptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea></div>
+      <div class = "botaocifra"></div>  <button id="btnDecifre">DECIFRE</button></div>
         </div>
     <script src="index.js" type="module"></script>
   </body>
