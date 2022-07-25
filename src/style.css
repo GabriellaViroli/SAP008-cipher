@@ -1,33 +1,31 @@
-html {
-background-color: #FEECEA;
-    /* Rectangle 1 */
-box-sizing: border-box;
-position: absolute;
-width: 899px;
-height: 881px;
-left: 270px;
-top: 20px;
-border: 1px solid #D9B1A3;
-border-radius: 20px;
-  }
+@charset "UTF-8";
 
-.title {
-       /* Olá, amiga bruxa, seja bem vinda! */
-    margin-bottom: 20;
-    padding: 0px 0;
+* {
+  margin:0px; 
+  padding: 0px;
+}
+
+body {
+background-color: #FEECEA;
+  ;
+    }
+
+header > h1 {
+/* Olá, amiga bruxa, seja bem vinda! */
+    margin-top: 40px;
     font-family: 'Varela';
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 48px;
     text-align: center;
-    color: #9EA663;
+    color: #D9A3BC;
+    background-color: #F5F5F5
     ;
-  }
-.introduçao {
-     /* Paragrafo1 de texto*/
-    margin: 0;
-    padding: 0px 0;
+      }
+header > p {
+/* Use os campos abaixo para que a inquisição não consiga descobrir o conteúdo da sua mensagem.
+Tenha cuidado.*/
     font-family: 'Varela';
     font-style: normal;
     font-weight: 400;
@@ -37,52 +35,66 @@ border-radius: 20px;
     letter-spacing: 0.005em;
     color: #D9A3BC;
     ;
+          }
 
-    }
-
-.content {
-       /* Pergunta deslocamento casas */
-
-  width: 728px;
-  height: 30px;
-  left: 354px;
-  top: 272px;
+main {
+/* Pergunta deslocamento casas */
+  
+  width: 100%;
+  top: 272px;   
   font-family: 'Varela';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.005em;
   color: #9EA663;
-}
+
+  ;
+        }
 
 .caixinha {
   /* Caixa de deslocamento */
-
+margin-top: 10px;
+margin-bottom: 20px;
 width: 50px; 
 top: 272px;
-margin-left: 350px;
 box-sizing: border-box;
 background: #F5F5F5;
 border: 1px solid #D9B1A3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
 text-align: center;
+;
+        }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  ;
 }
 
 .botaocifra {
-/* Rectangle 5 */
-
-width: 217.82px;
-height: 42.69px;
-left: 612.02px;
-top: 552.33px;
+margin-top: 10px;
 background: #D9B1A3;
-border-radius: 15px;
-/* CIFRE */
-
+width: 60px;
+height: 30px; 
+border-radius: 8px;
+;
+}
+.botaocifra:hover {
+  background: #ac8b7f;
 }
 
-
-;
+footer {
+  background: #D9B1A3;
+  position: absolute;
+  bottom: 0px;
+  height: auto;
+  width: 100vw;
+  text-align:center;
+  ;
+}             
