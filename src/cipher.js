@@ -1,6 +1,4 @@
 function encode(offset, texto) {
-    // se o tipo de offset não for do tipo Int lançar TypeError
-    // se o tipo de texto não for do tipo String lançar TypeError
     if (typeof offset != "number") {
         throw TypeError()
     }
