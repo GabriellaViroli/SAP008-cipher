@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+  margin:0px; 
+  padding: 0px;
+}
+
+body {
+background-image: linear-gradient(to right,#f0cded, #fad3cf, #f0cded);
+  ;
+    }
+
+header > h1 {
+/* Olá, amiga bruxa, seja bem vinda! */
+    margin-top: 10px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #ca8faa;
+        ;
+      }
+
+textarea {
+border: 1px solid #D9B1A3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+text-align: center;
+
+}
+
+main {
+/* Pergunta deslocamento casas */
+  margin-top: 40px;
+  width: 100%;
+  top: 272px;   
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #b48199;
+
+  ;
+ }
+
+.caixinha {
+  /* Caixa de deslocamento */
+margin-top: 10px;
+margin-bottom: 20px;
+width: 50px; 
+top: 272px;
+box-sizing: border-box;
+background: #F5F5F5;
+border: 1px solid #D9B1A3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+text-align: center;
+;
+        }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  ;
+}
+
+.botaocifra {
+margin-top: 10px;
+background: #D9B1A3;
+color: #F5F5F5;
+border-color: #F5F5F5;
+width: 60px;
+height: 30px; 
+border-radius: 8px;
+;
+}
+.botaocifra:hover {
+  background: #ac8b7f;
+}
+
+footer {
+  /*background: #D9B1A3;*/
+  background: #8147a3c7;
+  position: absolute;
+  bottom: 0px;
+  height: auto;
+  width: 100vw;
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-align:center;
+  font-size: 17px;
+  color:#F5F5F5;
+  ;
+}             
+
+.boladecristal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 90px;  
+}
+.bruxinha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

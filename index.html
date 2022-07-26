@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Projeto Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="root">
+
+  <header>
+   <h1>Olá, amiga bruxa! <div class = "bruxinha"><img src="assets/bruxinha.png" width="80" height="100">
+   </div> 
+   </h1>
+   </header>
+
+
+  <main>
+       <label for="casas"> Quantas posições de deslocamento você deseja que a cifra utilize? (1-60) </label>
+          <div class = "center">
+          <input class="caixinha" type="number" id="casas" name="casas" min="1" max="60">
+          </div>
+        <label for="criptografia"><p>Cifre sua mensagem e escape da inquisição 
+        </p></label>
+
+        <div class = "center"> 
+        <textarea id="criptografia" name="criptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea>
+        </div>
+        <div class = "center">
+         <button class="botaocifra" id="btnCifre">cifre
+         </button>
+         </div>           
+         <label for="descriptografia"><p>Decifre sua mensagem e escape da inquisição</p></label>
+         <div class = "center">
+        <textarea id="descriptografia" name="descriptografia" rows="5" cols="33" placeholder="Digite sua mensagem aqui"></textarea>
+        </div>
+         <div class = "center">
+         <button class="botaocifra" id="btnDecifre">decifre
+         </button>
+         </div>
+
+   </main>
+      <script src="index.js" type="module"></script>
+    </div>
+
+  <div class = "boladecristal">
+    <img src="assets/boladecristal.png" width="130" height="130">
+    </div>
+
+    <footer>site criado por Gabriella Viroli (SAP008) para Laboratoria</footer>
+
+</body>
+</html>
