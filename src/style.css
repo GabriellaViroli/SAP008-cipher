@@ -89,7 +89,7 @@ footer {
   /*background: #D9B1A3;*/
   background: #8147a3c7;
   position: absolute;
-  bottom: 0px;
+  bottom: auto;
   height: auto;
   width: 100vw;
   font-family: 'Varela';
